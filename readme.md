@@ -59,7 +59,7 @@ train_loader = ...
 val_loader = ...
 
 # Train the model
-trainer.train(train_loader, val_loader)
+trainer.fit(train_loader, val_loader)
 ```
 
 
